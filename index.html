@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <script src="calculator.js"></script>
+        <script src="assets/js/calc.js"></script>
+        <title>HYDROKOMB</title>
+        <link href="https://fonts.cdnfonts.com/css/glow-better" rel="stylesheet">
+    </head>
+    <body>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevron-up scrolltop__icon'></i>
+        </a>
+
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <img src="assets/img/hko.png" alt="" class="nav-logo" >
+                
+
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Inicio</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">¿Quiénes somos?
+                        </a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">Nuestra Oferta</a></li>
+                        <li class="nav__item"><a href="#menu" class="nav__link">Paquetes</a></li>
+                        <li class="nav__item"><a href="#calculator" class="nav__link">Calcula tu Precio</a></li>
+
+                        
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--========== HOME ==========-->
+            <section class="home" id="home" style="padding-bottom: 5px;">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__data">
+                        <h1 class="home__title">THE BABYSITTERS CLUB</h1>
+                        
+                        <a href="#menu" class="button">Paquetes</a>
+                    </div>
+
+                    <img src="assets/img/hko1.png" alt="" class="home__img" style="margin-left: 80px; margin-top: 40px;">
+                </div>
+            </section>
+            
+          
+
+<!--========== ABOUT ==========-->
+<section class="about section bd-container" id="about">
+    <div class="about__container bd-grid">
+        <img src="assets/img/kombuchaf.png" alt="" class="about__img" style="width: 400%; height: auto;">
+        <div class="about__data">
+            <span class="section-subtitle about__initial">CONOCE </span>
+            <h2 class="section-title about__initial"> NUESTRO SERVICIO <br> </h2>
+            <p class="about__description" style="text-align: justify;">Nuestro equipo alegre está aquí para hacer que ser mamá o papá sea fácil y divertido. Ofrecemos un servicio único y accesible, con cuidado especializado respaldado por capacitación en parvulario, primeros auxilios, nutrición e idiomas. Priorizamos su comodidad y confianza, adaptando nuestro servicio a sus necesidades. ¡Somos diferentes y estamos listos para ayudar en Quito!</p>
+        </div>
+    </div>
+</section>
+
+            <!--========== SERVICES ==========-->
+            <section class="services section bd-container" id="services">
+                <span class="section-subtitle">Nuestro servicio ofrece</span>
+                <h2 class="section-title">Increíbles Beneficios</h2>
+            
+                <div class="services__container  bd-grid">
+                    <div class="services__content">
+                        <img src="assets/img/rodillo.png" class="home__img" alt="Rodillo" style="width: 100px; height: auto; border-radius: 0;">
+                        <h3 class="services__title">Educación</h3>
+                        <p class="services__description">Ofrecemos cursos de idiomas (inglés, italiano, francés, holandés o alemán) para sus hijos, así como ayuda y comprensión en sus tareas escolares.</p>
+                    </div>
+            
+                    <div class="services__content">
+                        <img src="assets/img/rodillo1.png" class="home__img" alt="Rodillo" style="width: 100px; height: auto; border-radius: 0;">
+                        <h3 class="services__title">Calidad</h3>
+                        <p class="services__description">Todas nuestras niñeras cuentan con un riguroso entrenamiento en parvulario, primeros auxilios y cocina, garantizando así el mejor cuidado para sus hijos.</p>
+                    </div>
+            
+                    <div class="services__content">
+                        <img src="assets/img/rodillo2.png" class="home__img" alt="Rodillo" style="width: 100px; height: auto; border-radius: 0;">
+                        <h3 class="services__title">Comodidades</h3>
+                        <p class="services__description">Incluimos servicio de transporte, paquetes de viajes y materiales didácticos para una experiencia educativa completa y enriquecedora.</p>
+                    </div>
+                </div>
+            </section>
+
+            <style>
+                .menu__container {
+                    display: flex; /* Alinea los elementos en una fila */
+                    justify-content: space-around; /* Distribuye uniformemente los elementos en la fila */
+                    align-items: center; /* Centra verticalmente los elementos en la fila */
+                }
+            
+                .menu__content {
+                    flex: 1; /* Hace que cada paquete tenga el mismo tamaño dentro del contenedor */
+                    text-align: center; /* Centra el contenido horizontalmente */
+                }
+            
+                .menu__img {
+                    max-width: 100px; /* Ajusta el ancho máximo de la imagen */
+                    height: auto; /* Mantiene la proporción de la imagen */
+                }
+            </style>
+            
+            <section class="menu section bd-container" id="menu">
+                <span class="section-subtitle">Nuestros</span>
+                <h2 class="section-title">PAQUETES</h2>
+            
+                <div class="menu__container bd-grid">
+                    <div class="menu__row">
+                        <div class="menu__content">
+                            <img src="assets/img/jamaica png 2.png" alt="" class="menu__img">
+                            <h3 class="menu__name">Paquete Básico</h3>
+                            <span class="menu__preci">$5.00</span>
+                            <a href="#contact" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                        </div>
+            
+                        <div class="menu__content">
+                            <img src="assets/img/hola1.png" alt="" class="menu__img">
+                            <h3 class="menu__name"> Paquete Yummy</h3>
+                            <span class="menu__detail"></span>
+                            <span class="menu__preci">$8.00</span>
+                            <a href="#contact" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                        </div>
+            
+                        <div class="menu__content">
+                            <img src="assets/img/hola.png" alt="" class="menu__img">
+                            <h3 class="menu__name">Paquete Nocturno</h3>
+                            <span class="menu__detail">    </span>
+                            <span class="menu__preci">$50.00</span>
+                            <a href="#contact" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                        </div>
+                    </div>
+            
+                    <!-- Segunda fila de paquetes -->
+                    <div class="menu__row">
+                        <div class="menu__content">
+                            <img src="assets/img/papu.png" alt="" class="menu__img">
+                            <h3 class="menu__name">Paquete Plus</h3>
+                            <span class="menu__detail"></span>
+                            <span class="menu__preci">$10.00</span>
+                            <a href="#contact" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                        </div>
+            
+                        <div class="menu__content">
+                            <img src="assets/img/party.png" alt="" class="menu__img">
+                            <h3 class="menu__name">Paquete Party</h3>
+                            <span class="menu__detail"></span>
+                            <span class="menu__preci">$12.00</span>
+                            <a href="#contact" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                        </div>
+                        
+                        <div class="menu__content">
+                            <img src="assets/img/trip.png" alt="" class="menu__img">
+                            <h3 class="menu__name">Nanny Trip</h3>
+                            <span class="menu__detail"></span>
+                            <span class="menu__preci">$60.00</span>
+                            <a href="#contact" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+
+
+            </section>
+
+            <!--===== PROYECTO =======-->
+            <section class="app section bd-container">
+                <div class="app__container bd-grid">
+                    <div class="project__data">
+                        <span class="section-subtitle project__initial">QUE NOS HACE</span>
+                        <h2 class="section-title project__initial">DIFERENTES</h2>
+                        <p class="project__description"> Nuestra empresa se destaca por ofrecer un excepcional servicio de cuidado infantil, respaldado por niñeras profesionales y cualificadas con formación en cuidado infantil y títulos de parvularias. Garantizamos un entorno seguro y educativo para los niños, junto con comidas nutritivas adaptadas a sus necesidades. Además, ofrecemos un programa de estimulación temprana que incluye la enseñanza de idiomas para promover su desarrollo integral. Nuestro horario flexible se adapta a las necesidades individuales de cada familia, y a través de nuestra plataforma en línea, los padres pueden elegir la niñera que mejor se ajuste a sus necesidades, brindando una experiencia personalizada. Todas nuestras niñeras cuentan con transporte propio para garantizar una movilidad segura y confiable. </p>
+                
+
+                    </div>
+
+                    <img src="assets/img/movil-app.png" alt="" class="app__img">
+                </div>
+            </section>
+
+            <!--========== MISION VISION ==========-->
+            
+            </section>
+        </main>
+
+            <!--========== PREVENTA==========-->
+            
+        </main>
+
+            <!--===== BMI Calculator =======-->
+            <section class="calculator" id="calculator" style="margin-top: 150px; text-align: center;">
+                    <h2>CALCULA EL PRECIO DE TU PAQUETE</h2>
+                    <label class="contact__description" for="package">Selecciona un paquete:</label>
+                    <select id="package" class="contact__description">
+                        <option value="5">Básico</option>
+                        <option value="8">Yummy</option>
+                        <option value="50">Nocturno</option>
+                        <option value="10">Plus</option>
+                        <option value="12">Party</option>
+                        <option value="60">Nanny trip</option>
+                    </select><br><br>
+                    <label class="contact__description" for="hours">Selecciona el número de horas:</label>
+                    <input type="text" id="hours" class="contact__description"><br><br>
+                    <button id="BMI_btn" onclick="calculatePrice()">Calcula</button><br><br>
+                    <button id="BMI_btn" onclick="clearFields()">Borrar</button><br><br>
+                    <div id="result" class="button__container"></div>
+                </section>
+                
+                <script>
+                    function calculatePrice() {
+                        var packagePrice = document.getElementById("package").value;
+                        var hours = document.getElementById("hours").value;
+                        var totalPrice;
+                
+                        if (packagePrice == 50 || packagePrice == 60) {
+                            totalPrice = packagePrice;
+                        } else {
+                            totalPrice = packagePrice * hours;
+                        }
+                
+                        document.getElementById("result").innerHTML = "El valor que tendrías que pagar es: $" + totalPrice;
+                    }
+                
+                    function clearFields() {
+                        document.getElementById("package").selectedIndex = 0;
+                        document.getElementById("hours").value = "";
+                        document.getElementById("result").innerHTML = "";
+                    }
+                </script>
+
+                  
+        <!--========== FOOTER ==========-->
+ 
+            
+
+
+
+            <p class="footer__copy">&#169; 2024 BSC. All right reserved</p>
+        </footer>
+
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Document</title>
+</head>
+
+</script>
+
+<script type="text/javascript">
+  (function(d, t) {
+      var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+      v.onload = function() {
+        window.voiceflow.chat.load({
+          verify: { projectID: '6612be46e70f14e964b7e8b0' },
+          url: 'https://general-runtime.voiceflow.com',
+          versionID: 'production'
+        });
+      }
+      v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+  })(document, 'script');
+</script>
+
+<body>  
+</body>
+</html>

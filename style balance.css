@@ -1,0 +1,42 @@
+body {
+    font-family: 'Eczar';
+}
+
+h1 {
+    color: black;
+    font-size:xx-large;
+}
+
+h2 {
+    color:rgb(70, 45, 181);
+    font-size:x-large;
+}
+
+div.main_container{
+    background-color: aquamarine;
+    display: block;
+    text-align: center;
+    justify-content: center;;
+}
+
+div.simple_container{
+    padding:auto;
+}
+
+div.calculator_container{
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+
+#output_container {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    border:1px solid rgb(0, 0, 0);
+
+}
+#BMI_btn {
+    font-family: 'Helvetica';
+    font-size:22px;
+}
